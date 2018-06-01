@@ -25,7 +25,3 @@ title: Welcome to Middleman
 <% data.cockpit.HomepageNews[:entries].each do |n| %>
   <%= partial("homepage_news", locals: {news: n}) %>
 <% end %>
-
-<% data.cockpit.Widgets[:entries].each do |n| %>
-  <%= partial("homepage_news", locals: {news: n}) %>
-<% end %>
